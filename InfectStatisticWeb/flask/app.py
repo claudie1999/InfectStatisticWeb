@@ -147,14 +147,7 @@ def table_base():
     headers = ["地区", "现有确诊", "累计死亡", "累计治愈"]
 
     rows = [
-        ["湖北", 13522, 414, 397],
-        ["浙江", 829, 0, 60],
-        ["广东", 813, 0, 24],
-        ["河南", 675, 2, 20],
-        ["湖南", 593, 0, 29],
-        ["安徽", 480, 0, 20],
-        ["江西", 476, 2, 19],
-        ["重庆", 344, 2, 9]
+
     ]
     table.add(headers, rows).set_global_opts(
         title_opts=ComponentTitleOpts(title="Table", subtitle="副标题")
